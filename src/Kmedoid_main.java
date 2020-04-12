@@ -248,4 +248,4 @@ public class Kmedoid_main {
 		}
 	}//End of the outputToFile class
 		
-}//End of the SZabel_HW5 class
+}//End of the Kmedoid_main class
