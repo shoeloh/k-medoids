@@ -27,10 +27,10 @@ A Jaccard Distance Dist(A, B) between tweet A and B has the following properties
 Here is the reference for more details about Jaccard Distance:  
 https://en.wikipedia.org/wiki/Jaccard_index  
 
-##Objective:
+## Objective:
 Implement the tweet clustering function using the Jaccard Distance metric and K-medoids clustering algorithm to cluster redundant/repeated tweets into the same cluster. Note that while the K-medoids algorithm is proved to converge, the algorithm is sensitive to the k initial selected cluster centroids (i.e., seeds) and the clustering result is not necessarily optimal on a random selection of seeds. In this code, I provide you with a list of K initial centroids that have been tested to generate good results.
 
-##Inputs to the K-means Algorithm:
+## Inputs to the K-means Algorithm:  
 (1) The number of clusters K (default to K=25).  
 (2) A real world dataset (Tweets.json) sampled from Twitter during the Boston Marathon Bombing event in April 2013 that contains 251 tweets. The tweet dataset is in JSON format 
 (3) The list of initial centroids (InitialSeeds.txt). Note that each element in this list is the tweet ID (i.e., the id field in JSON format) of the tweet in the dataset.
