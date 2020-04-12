@@ -9,7 +9,7 @@ Compute the similarity between tweets using the Jaccard Distance metric.
 Cluster tweets using the K-medoids clustering algorithm.  
 
 ## Introduction to Jaccard Distance:  
-The Jaccard distance, which measures dissimilarity between two sample sets (A and B). It is defined as the difference of the sizes of the union and the intersection of two sets divided by the size of the union of the sets.  
+The Jaccard distance measures dissimilarity between two sample sets (A and B). It is defined as the difference of the sizes of the union and the intersection of two sets divided by the size of the union of the sets.  
 
 For example, consider the following tweets:  
 Tweet A: the long march  
